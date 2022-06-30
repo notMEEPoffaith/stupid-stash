@@ -9,7 +9,7 @@ drownTimeMultiplier: 2
 segments: 3
 drawBody: false
 crushDamage: 0.5f
-aiController: HugAI::new
+defaultController: HugAI
 targetAir: false
 segmentScl: 3
 segmentPhase: 5
