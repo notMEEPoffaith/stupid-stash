@@ -1,0 +1,17 @@
+localizedName: "Iuncturam"
+description: "A Renale-like creature you can create."
+health: 500
+armor: 2
+hitSize: 9
+omniMovement: false
+rotateSpeed: 2.5
+drownTimeMultiplier: 2
+segments: 3
+drawBody: false
+crushDamage: 0.5f
+aiController: HugAI::new
+targetAir: false
+segmentScl: 3
+segmentPhase: 5
+segmentMag: 0.5
+speed: 1.2
