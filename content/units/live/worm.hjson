@@ -16,7 +16,7 @@ defaultController: HugAI
 targetAir: false
 healColor: Pal.neoplasm1
 healFlash: true
-segmentScl: 3
+segmentScl: 5
 segmentPhase: 5
 segmentMag: 0.5
 speed: 1.2
