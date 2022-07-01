@@ -16,3 +16,4 @@ segmentScl: 3
 segmentPhase: 5
 segmentMag: 0.5
 speed: 1.2
+useUnitCap: false
