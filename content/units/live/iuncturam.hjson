@@ -9,6 +9,7 @@ rotateSpeed: 2.5
 drownTimeMultiplier: 2
 segments: 3
 drawBody: false
+drawCells: false
 crushDamage: 0.5f
 defaultController: HugAI
 targetAir: false
