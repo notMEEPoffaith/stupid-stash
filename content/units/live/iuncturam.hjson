@@ -8,8 +8,9 @@ omniMovement: false
 rotateSpeed: 2.5
 drownTimeMultiplier: 2
 segments: 3
+outlineColor: #192e2a
 drawBody: false
-drawCells: false
+drawCell: false
 crushDamage: 0.5f
 defaultController: HugAI
 targetAir: false
