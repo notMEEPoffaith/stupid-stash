@@ -1,6 +1,6 @@
 type: crawl
 localizedName: "Iuncturam"
-description: "A Renale-like creature you can create."
+description: "A Renale-like creature you can create using Cultivated Neoplasm."
 health: 500
 armor: 2
 hitSize: 9
@@ -14,8 +14,19 @@ drawCell: false
 crushDamage: 0.5f
 defaultController: HugAI
 targetAir: false
+healColor: Pal.neoplasm1
+healFlash: true
 segmentScl: 3
 segmentPhase: 5
 segmentMag: 0.5
 speed: 1.2
 useUnitCap: false
+abilities: [
+  {
+    type: RegenAbility
+    localizedName: Regeneration
+    description: Slowly regenerates it's HP
+    percentAmount: 1 / (70 * 60) * 100
+    }
+  }
+]
