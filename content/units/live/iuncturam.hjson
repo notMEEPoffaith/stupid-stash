@@ -27,6 +27,5 @@ abilities: [
     localizedName: Regeneration
     description: Slowly regenerates it's HP
     percentAmount: 1 / (70 * 60) * 100
-    }
   }
 ]
