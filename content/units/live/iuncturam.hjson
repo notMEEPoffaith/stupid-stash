@@ -26,6 +26,7 @@ abilities: [
     type: RegenAbility
     localizedName: Regeneration
     description: Slowly regenerates it's HP
-    percentAmount: 1 / (70 * 60) * 100
+    percentAmount: 0.0238095238
+
   }
 ]
