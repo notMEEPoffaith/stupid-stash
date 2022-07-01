@@ -1,0 +1,31 @@
+type: crawl
+localizedName: "Worm"
+description: "A giant worm."
+health: 5000
+armor: 2
+hitSize: 9
+omniMovement: false
+rotateSpeed: 2.5
+drownTimeMultiplier: 2
+segments: 30
+outlineColor: #192e2a
+drawBody: false
+drawCell: false
+crushDamage: 0.5f
+defaultController: HugAI
+targetAir: false
+healColor: Pal.neoplasm1
+healFlash: true
+segmentScl: 3
+segmentPhase: 5
+segmentMag: 0.5
+speed: 1.2
+useUnitCap: false
+abilities: [
+  {
+    type: RegenAbility
+    localizedName: Regeneration
+    description: Slowly regenerates it's HP
+    percentAmount: 0.00277777777
+  }
+]
