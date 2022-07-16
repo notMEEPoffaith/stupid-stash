@@ -3,6 +3,6 @@ displayName: "Stupid Stash"
 author: "notMEEPoffaith"
 description: "Dumb dump 2."
 version: "1.0"
-minGameVersion: "22738"
+minGameVersion: "136"
 dependencies: [ ]
 hidden: false
