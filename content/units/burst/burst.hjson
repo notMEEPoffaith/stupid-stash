@@ -9,13 +9,13 @@ flying: true
 range: 140
 targetAir: true
 commandLimit: 4
-circleTarget: true
+circleTarget: false
 hitSize: 7
 weapons: [
 	{
 	x: 0
 	y: 4
-	reload: 26
+	reload: 52
 	recoil: 0.5
 	name: "burst-weapon"
 	shootWarmupSpeed: 0.1
@@ -25,8 +25,8 @@ weapons: [
 	top: false
 		bullet: {
 			type: BasicBulletType
-			damage: 18
-			speed: 2.5
+			damage: 36
+			speed: 3
 			width: 7
 			height: 9
 			lifetime: 45
