@@ -18,11 +18,13 @@ weapons: [
 	reload: 26
 	recoil: 0.5
 	name: "burst-weapon"
+	shootWarmupSpeed: 0.1
+	minWarmup: 0.95
 	mirror: false
 	ejectEffect: casing1
 	top: false
 		part: {
-			name: "-blade"
+			name: "burst-weapon-blade"
 			x: 1
 			y: 0
 			moveRot: -33
