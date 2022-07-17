@@ -21,6 +21,15 @@ weapons: [
 	mirror: false
 	ejectEffect: casing1
 	top: false
+		part: {
+			name: "-blade"
+			x: 1
+			y: 0
+			moveRot: -33
+			moveY: -1
+			moveX: -1
+			mirror: true
+		}
 		bullet: {
 			type: BasicBulletType
 			damage: 18
