@@ -14,9 +14,9 @@ hitSize: 7
 weapons: [
 	{
 		x: 0
-		y: 2
+		y: 3
 		reload: 26
-		recoil: 0
+		recoil: 1
     name: "burst-weapon"
 		ejectEffect: casing1
     top: false
