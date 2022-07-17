@@ -46,16 +46,6 @@ weapons: [
 			moveY: -1
 			moveX: -1
 			progress: warmup
-			(PartMove, RegionMove): [
-				{
-				type: PartMove
-				suffix: -blade
-				
-				moveRot: -33
-				moveY: -1
-				moveX: -1
-				}
-				]
 			}
 	}
 ]
