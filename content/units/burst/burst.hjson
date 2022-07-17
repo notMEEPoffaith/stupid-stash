@@ -16,7 +16,7 @@ weapons: [
 	x: 0
 	y: 4
 	reload: 26
-	recoil: 2
+	recoil: 0.5
 	name: "burst-weapon"
 	mirror: false
 	ejectEffect: casing1
