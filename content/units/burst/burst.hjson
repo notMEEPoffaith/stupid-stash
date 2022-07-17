@@ -12,7 +12,6 @@ commandLimit: 4
 circleTarget: true
 hitSize: 7
 weapons: [
-	{
 	x: 0
 	y: 4
 	reload: 26
@@ -23,7 +22,6 @@ weapons: [
 	mirror: false
 	ejectEffect: casing1
 	top: false
-	}
 		bullet: {
 			type: BasicBulletType
 			damage: 18
