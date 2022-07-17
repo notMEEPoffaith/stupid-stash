@@ -6,7 +6,7 @@ speed: 3
 drag: 0.01
 accel: 0.08
 flying: true
-outlineColor: Pal.darkOutline
+outlineColor: 2d2f39
 range: 140
 targetAir: true
 commandLimit: 4
