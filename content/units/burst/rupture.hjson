@@ -1,0 +1,58 @@
+type: flying
+localizedName: Rupture
+description: I made a 2nd one.
+health: 1000
+speed: 1.75
+drag: 0.5
+accel: 0.8
+flying: true
+outlineColor: 2d2f39
+range: 25
+targetAir: true
+commandLimit: 4
+circleTarget: false
+hitSize: 7
+weapons: [
+	{
+	x: 0
+	y: 0
+	reload: 11
+	recoil: 0.5
+	shootWarmupSpeed: 0.05
+	minWarmup: 0.95
+	mirror: false
+	ejectEffect: none
+	top: false
+		bullet: {
+			type: BasicBulletType
+      damage: 60
+      ammoMultiplier: 3
+      hitSize: 7
+      lifetime: 13
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      statusDuration: 240
+      shootEffect: shootPyraFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      status: burning
+      keepVelocity: false
+      hittable: false
+		}
+		shootSound: pew
+		parts: [ 
+			{
+				suffix: "-blade"
+				under: true
+				progress: warmup
+				mirror: true
+				moveRot: -45
+				moveX: 1
+				moveY: 0
+				x: 0
+				y: 0
+			}
+			]
+	}
+]
