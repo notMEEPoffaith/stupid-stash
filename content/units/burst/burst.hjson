@@ -1,7 +1,7 @@
 type: flying
 localizedName: Burst
 description: An experiment with the new parts system for unit weapons. 
-health: 75
+health: 500
 speed: 3
 drag: 0.01
 accel: 0.08
