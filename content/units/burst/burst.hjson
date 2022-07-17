@@ -34,7 +34,6 @@ weapons: [
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 2
-		}
 		shootSound: pew
 		parts: {
 			type: RegionPart
