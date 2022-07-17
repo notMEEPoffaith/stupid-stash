@@ -42,11 +42,15 @@ weapons: [
 			y: 0
 			rot: 0
 			mirror: true
-			moves: [
+			moveRot: -33
+			moveY: -1
+			moveX: -1
+			progress: warmup
+			(PartMove, RegionMove): [
 				{
 				type: PartMove
 				suffix: -blade
-				progress: warmup
+				
 				moveRot: -33
 				moveY: -1
 				moveX: -1
