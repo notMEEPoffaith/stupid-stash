@@ -36,15 +36,15 @@ weapons: [
 		}
 		shootSound: pew
 		parts: [ 
-						{
-							suffix: "-blade"
-							under: false
-							progress: warmup
-							moveRot: -33
-							moveX: 1
-							moveY: -1
-							x: 1
-							y: 0
+			{
+				suffix: "-blade"
+				under: false
+				progress: warmup
+				moveRot: -33
+				moveX: 1
+				moveY: -1
+				x: 1
+				y: 0
             }
         ]
 ]
