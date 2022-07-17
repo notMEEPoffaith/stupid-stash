@@ -44,7 +44,7 @@ weapons: [
 				moveRot: -33
 				moveX: 1
 				moveY: 0
-				x: 0.5
+				x: 0
 				y: 0
 			}
 			]
