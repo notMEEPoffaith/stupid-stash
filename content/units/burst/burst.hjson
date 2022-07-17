@@ -24,7 +24,7 @@ weapons: [
 	ejectEffect: casing1
 	top: false
 		part: {
-			name: "burst-weapon-blade"
+			suffix: "-blade"
 			x: 1
 			y: 0
 			moveRot: -33
