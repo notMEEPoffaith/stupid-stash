@@ -22,7 +22,7 @@ weapons: [
 	shootWarmupSpeed: 0.05
 	minWarmup: 0.95
 	mirror: false
-	layerOffset: -10
+	layerOffset: -1
 	ejectEffect: none
 	top: false
 		bullet: {
@@ -49,7 +49,7 @@ weapons: [
 				under: true
 				progress: warmup
 				mirror: true
-				moveRot: -45
+				moveRot: -22.5
 				moveX: 1
 				moveY: 0
 				x: 0
