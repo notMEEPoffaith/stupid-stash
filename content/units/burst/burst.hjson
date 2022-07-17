@@ -40,9 +40,10 @@ weapons: [
 				suffix: "-blade"
 				under: false
 				progress: warmup
+				mirror: true
 				moveRot: -33
 				moveX: 1
-				moveY: -1
+				moveY: 0
 				x: 1
 				y: 0
 			}
