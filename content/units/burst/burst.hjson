@@ -24,33 +24,35 @@ weapons: [
 	ejectEffect: casing1
 	top: false
 	}
-	bullet: {
-		type: BasicBulletType
-		damage: 18
-		speed: 2.5
-		width: 7
-		height: 9
-		lifetime: 45
-		shootEffect: shootSmall
-		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 2
-	}
-	shootSound: pew
-	parts: {
-		type: RegionPart
-		suffix: -blade
-		x: 1
-		y: 0
-		rot: 0
-		mirror: true
-		moves: [
-			{
-			type: PartMove
+		bullet: {
+			type: BasicBulletType
+			damage: 18
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 45
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+		}
+		shootSound: pew
+		parts: {
+			type: RegionPart
 			suffix: -blade
-			progress: warmup
-			moveRot: -33
-			moveY: -1
-			moveX: -1
+			x: 1
+			y: 0
+			rot: 0
+			mirror: true
+			moves: [
+				{
+				type: PartMove
+				suffix: -blade
+				progress: warmup
+				moveRot: -33
+				moveY: -1
+				moveX: -1
+				}
+				]
 			}
-		]
+	}
 ]
