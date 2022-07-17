@@ -23,7 +23,6 @@ weapons: [
 	mirror: false
 	ejectEffect: casing1
 	top: false
-		}
 		bullet: {
 			type: BasicBulletType
 			damage: 18
