@@ -13,9 +13,10 @@ circleTarget: true
 hitSize: 7
 weapons: [
 	{
-		x: 2
-		y: 0
+		x: 0
+		y: 2
 		reload: 26
+		recoil: 0
     name: "burst-weapon"
 		ejectEffect: casing1
     top: false
