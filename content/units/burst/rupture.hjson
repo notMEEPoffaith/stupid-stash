@@ -17,13 +17,17 @@ weapons: [
 	{
 	x: 0
 	y: 0
-	reload: 11
-	recoil: 0.5
+	reload: 30
+	recoil: 0
+	shots: 5
+	shotDelay: 5
+	inaccuracy: 22.5
 	shootWarmupSpeed: 0.05
 	minWarmup: 0.95
 	mirror: false
 	layerOffset: -1
 	ejectEffect: none
+	shootSound: flame
 	top: false
 		bullet: {
 			type: BasicBulletType
