@@ -12,6 +12,7 @@ targetAir: true
 commandLimit: 4
 circleTarget: false
 hitSize: 7
+envDisabled: space
 weapons: [
 	{
 	x: 0
