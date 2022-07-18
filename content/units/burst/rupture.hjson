@@ -17,7 +17,7 @@ weapons: [
 	{
 	x: 0
 	y: 0
-	reload: 35
+	reload: 50
 	recoil: 0
 	shots: 5
 	shotDelay: 5
@@ -27,7 +27,6 @@ weapons: [
 	mirror: false
 	layerOffset: -1
 	ejectEffect: none
-	shootSound: flame
 	top: false
 		shoot: {
 			shots: 5
@@ -50,7 +49,7 @@ weapons: [
 			keepVelocity: false
 			hittable: false
 		}
-		shootSound: pew
+		shootSound: flame
 		parts: [ 
 			{
 				suffix: "rupture-blade"
