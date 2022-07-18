@@ -17,7 +17,7 @@ weapons: [
 	{
 	x: 0
 	y: 0
-	reload: 30
+	reload: 35
 	recoil: 0
 	shots: 5
 	shotDelay: 5
@@ -29,6 +29,10 @@ weapons: [
 	ejectEffect: none
 	shootSound: flame
 	top: false
+		shoot: {
+			shots: 5
+			shotDelay: 5
+		}
 		bullet: {
 			type: BasicBulletType
 			damage: 60
