@@ -22,7 +22,6 @@ weapons: [
 	reload: 60
 	recoil: 1
 	shots: 5
-	shotDelay: 5
 	layerOffset: -1
 	inaccuracy: 22.5
 	shootWarmupSpeed: 0.025
@@ -79,16 +78,16 @@ weapons: [
 	y: 0
 	reload: 40
 	recoil: 1
-	shotDelay: 5
 	layerOffset: -1
 	inaccuracy: 5
 	shootWarmupSpeed: 0.025
 	minWarmup: 0.99
-	shootY: 17
+	shootY: 12
+	shootX: 8
 	mirror: true
 	top: false
 	under: true
-	inaccuracy: 45
+	inaccuracy: 5
 	velocityRnd: 0.2
 		shoot: {
 			shots: 2
@@ -123,7 +122,7 @@ weapons: [
 				moveY: 4
 				x: 0
 				y: 0
-				rotation: 45
+				rotation: -45
 			},
 			{
 				suffix: "-missiles"
