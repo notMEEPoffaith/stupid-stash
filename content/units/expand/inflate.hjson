@@ -16,7 +16,7 @@ hitSize: 10
 envDisabled: 2
 weapons: [
 	{
-  name: inflate-weapon
+	name: inflate-weapon
 	x: 0
 	y: 0
 	reload: 50
@@ -30,7 +30,7 @@ weapons: [
 	ejectEffect: none
 	top: false
   inaccuracy: 45
-  velocityRnd: 0.5
+	velocityRnd: 0.5
 		shoot: {
 			shots: 5
 		}
@@ -49,9 +49,9 @@ weapons: [
 				under: true
 				progress: warmup
 				mirror: false
-				moveRot: -22.5
-				moveX: 1
-				moveY: 0
+				moveRot: 0
+				moveX: 0
+				moveY: 5
 				x: 0
 				y: 0
 			}
