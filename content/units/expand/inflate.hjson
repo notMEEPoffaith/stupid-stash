@@ -47,6 +47,18 @@ weapons: [
 		}
 		shootSound: shotgun
 		parts: [ 
+		
+			{
+				suffix: "-shotgun-connector"
+				under: true
+				progress: warmup
+				mirror: false
+				moveRot: 0
+				moveX: 0
+				moveY: 5
+				x: 0
+				y: 0
+			},
 			{
 				suffix: "-shotgun"
 				under: true
