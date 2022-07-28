@@ -29,7 +29,6 @@ weapons: [
 	minWarmup: 0.99
 	shootY: 17
 	mirror: false
-	ejectEffect: none
 	top: false
 	under: true
 	inaccuracy: 45
@@ -69,6 +68,73 @@ weapons: [
 				moveRot: 0
 				moveX: 0
 				moveY: 12
+				x: 0
+				y: 0
+			}
+			]
+	},
+	{
+	name: inflate-weapon
+	x: 0
+	y: 0
+	reload: 40
+	recoil: 1
+	shotDelay: 5
+	layerOffset: -1
+	shots: 2
+	inaccuracy: 5
+	shootWarmupSpeed: 0.025
+	minWarmup: 0.99
+	shootY: 17
+	mirror: true
+	top: false
+	under: true
+	inaccuracy: 45
+	velocityRnd: 0.2
+		shoot: {
+			shots: 1
+		}
+		bullet: {
+			type: MissileBulletType
+			damage: 30
+			splashDamage: 40
+			splashDamageRadius: 25
+			lifetime: 50
+			speed: 3
+			drag: -0.003
+			trailColor: d06b53
+			backColor: d06b53
+			frontColor: ffa665
+			hitEffect: blastExplosion
+			despawnEffect: blastExplosion
+			weaveScale: 6
+			weaveMag: 1
+			keepVelocity: false
+		}
+		shootSound: missile
+		parts: [
+			{
+				suffix: "-shotgun-connector"
+				under: true
+				progress: warmup
+				mirror: false
+				moveRot: 0
+				layerOffset: -1
+				moveX: 4
+				moveY: 4
+				x: 0
+				y: 0
+				rot: 45
+			},
+			{
+				suffix: "-missiles"
+				under: true
+				progress: warmup
+				heatColor: ab3400
+				mirror: false
+				moveRot: 0
+				moveX: 8
+				moveY: 8
 				x: 0
 				y: 0
 			}
