@@ -20,7 +20,7 @@ weapons: [
 	x: 0
 	y: 0
 	reload: 50
-	recoil: 0
+	recoil: 1
 	shots: 5
 	shotDelay: 5
 	inaccuracy: 22.5
