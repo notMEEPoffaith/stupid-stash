@@ -23,6 +23,7 @@ weapons: [
 	recoil: 1
 	shots: 5
 	shotDelay: 5
+	layerOffset: -1
 	inaccuracy: 22.5
 	shootWarmupSpeed: 0.025
 	minWarmup: 0.99
