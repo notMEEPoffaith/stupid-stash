@@ -56,7 +56,7 @@ weapons: [
 				moveRot: 0
 				layerOffset: -1
 				moveX: 0
-				moveY: 12.5
+				moveY: 7.5
 				x: 0
 				y: 0
 			},
@@ -67,7 +67,7 @@ weapons: [
 				mirror: false
 				moveRot: 0
 				moveX: 0
-				moveY: 25
+				moveY: 15
 				x: 0
 				y: 0
 			}
