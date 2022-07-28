@@ -34,17 +34,17 @@ weapons: [
 	inaccuracy: 45
 	velocityRnd: 0.5
 		shoot: {
-			shots: 5
+			shots: 10
 		}
 		bullet: {
 			type: BasicBulletType
-			damage: 40
+			damage: 20
 			ammoMultiplier: 3
 			lifetime: 50
-			speed: 1
+			speed: 2.5
 			keepVelocity: true
 		}
-		shootSound: flame
+		shootSound: shotgun
 		parts: [ 
 			{
 				suffix: "-shotgun"
