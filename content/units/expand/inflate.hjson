@@ -1,1 +1,60 @@
-placeholder
+type: flying
+localizedName: Inflate
+description: Small. Or is it?
+health: 5000
+speed: 1
+drag: 0.06
+accel: 0.05
+engineOffset: 7.7
+flying: true
+outlineColor: 2d2f39
+range: 25
+targetAir: true
+commandLimit: 4
+circleTarget: false
+hitSize: 10
+envDisabled: 2
+weapons: [
+	{
+  name: inflate-weapon
+	x: 0
+	y: 0
+	reload: 50
+	recoil: 0
+	shots: 5
+	shotDelay: 5
+	inaccuracy: 22.5
+	shootWarmupSpeed: 0.005
+	minWarmup: 1
+	mirror: false
+	ejectEffect: none
+	top: false
+  inaccuracy: 45
+  velocityRnd: 0.5
+		shoot: {
+			shots: 5
+		}
+		bullet: {
+			type: BasicBulletType
+			damage: 40
+			ammoMultiplier: 3
+			lifetime: 50
+      speed: 1
+			keepVelocity: true
+		}
+		shootSound: flame
+		parts: [ 
+			{
+				suffix: "-shotgun"
+				under: true
+				progress: warmup
+				mirror: false
+				moveRot: -22.5
+				moveX: 1
+				moveY: 0
+				x: 0
+				y: 0
+			}
+			]
+	}
+]
