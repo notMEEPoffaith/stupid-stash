@@ -12,7 +12,7 @@ range: 25
 targetAir: true
 commandLimit: 4
 circleTarget: false
-hitSize: 10
+hitSize: 9
 envDisabled: 2
 weapons: [
 	{
@@ -24,12 +24,14 @@ weapons: [
 	shots: 5
 	shotDelay: 5
 	inaccuracy: 22.5
-	shootWarmupSpeed: 0.005
-	minWarmup: 1
+	shootWarmupSpeed: 0.025
+	minWarmup: 0.99
+	shootY: 15
 	mirror: false
 	ejectEffect: none
 	top: false
-  inaccuracy: 45
+	under: true
+	inaccuracy: 45
 	velocityRnd: 0.5
 		shoot: {
 			shots: 5
@@ -39,7 +41,7 @@ weapons: [
 			damage: 40
 			ammoMultiplier: 3
 			lifetime: 50
-      speed: 1
+			speed: 1
 			keepVelocity: true
 		}
 		shootSound: flame
@@ -51,7 +53,7 @@ weapons: [
 				mirror: false
 				moveRot: 0
 				moveX: 0
-				moveY: 5
+				moveY: 10
 				x: 0
 				y: 0
 			}
