@@ -64,7 +64,7 @@ weapons: [
 				suffix: "-shotgun"
 				under: true
 				progress: warmup
-				heatColor: turretHeat
+				heatColor: ab3400
 				mirror: false
 				moveRot: 0
 				moveX: 0
