@@ -77,7 +77,7 @@ weapons: [
 	x: 0
 	y: 0
 	reload: 40
-	recoil: 1
+	recoil: 0.5
 	layerOffset: -1
 	inaccuracy: 5
 	shootWarmupSpeed: 0.025
