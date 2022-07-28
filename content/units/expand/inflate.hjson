@@ -41,8 +41,8 @@ weapons: [
 			type: BasicBulletType
 			damage: 20
 			ammoMultiplier: 3
-			lifetime: 50
-			speed: 2.5
+			lifetime: 25
+			speed: 5
 			keepVelocity: true
 		}
 		shootSound: shotgun
@@ -54,6 +54,7 @@ weapons: [
 				progress: warmup
 				mirror: false
 				moveRot: 0
+				layerOffset: -1
 				moveX: 0
 				moveY: 5
 				x: 0
